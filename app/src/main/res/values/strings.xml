@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Booksy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Pahlavon Sotiboldiyev</string>
+    <string name="nav_header_subtitle">Android developer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_join">Join</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="bo_limlar">Bo\'limlar</string>
+    <string name="bog_lanish">Bog\'lanish</string>
+    <string name="dastur_haqida">Dastur haqida</string>
+    <string name="taxi">Taksi</string>
+    <string name="sartarosh">Sartarosh</string>
+    <string name="shifokor">Shifokor</string>
+    <string name="doctoOr">Doctor</string>
+    <string name="oshpaz">Oshpaz</string>
+    <string name="tikuvchi">Tikuvchi</string>
+    <string name="savdogar">Savdogar</string>
+    <string name="doctor">Doctor</string>
+    <string name="salom_dunyo">Salom dunyo</string>
+    <string name="e_mail">E-mail</string>
+    <string name="mail">Pahlavon-9596@mail.ru</string>
+    <string name="call">+998999923691</string>
+    <string name="mail2">E-mail</string>
+    <string name="pahlavon_sotiboldiyev">Pahlavon Sotiboldiyev</string>
+    <string name="_998999923691">+998999923691</string>
+    <string name="pahlavon_9596_mail_ru">Pahlavon-9596@mail.ru</string>
+    <string name="facebook">Facebook</string>
+    <string name="about">Bu dasturdan foydalangan insonlar vaqtlarini va mablag`larini ancha tejashlari mumkin. Masofadan turib turli bo`limlarga xizmat ko`rsatishlari ham mumkin. Dasturdan foydalanganingiz uchun rahmat</string>
+    <string name="registratsiya_oynasi">Registratsiya oynasi</string>
+    <string name="login">Login</string>
+    <string name="loginni_kiriting">loginni kiriting</string>
+    <string name="kirish">Kirish</string>
+</resources>
+

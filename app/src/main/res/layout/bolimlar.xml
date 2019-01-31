@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8ac249">
+
+
+    <TextView
+        android:id="@+id/tV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:text="@string/taxi" />
+
+    <TextView
+        android:id="@+id/tV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:textSize="25sp"
+        android:layout_marginTop="70dp"
+        android:text="@string/shifokor" />
+
+    <TextView
+        android:id="@+id/tV4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tV3"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:textSize="25sp"
+        android:text="@string/sartarosh" />
+
+    <TextView
+        android:id="@+id/tV5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tV3"
+        android:textSize="25sp"
+        android:layout_marginTop="170dp"
+        android:text="@string/doctor" />
+
+    <TextView
+        android:id="@+id/tV6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tV2"
+        android:layout_marginTop="220dp"
+        android:textSize="25sp"
+        android:text="Sartarosh" />
+
+    <TextView
+        android:id="@+id/tV7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tV2"
+        android:layout_marginTop="270dp"
+        android:textSize="25sp"
+        android:text="@string/doctor" />
+
+    <TextView
+        android:id="@+id/tV8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tV2"
+        android:layout_marginTop="320dp"
+        android:textSize="25sp"
+        android:text="@string/savdogar" />
+    <TextView
+        android:id="@+id/tV9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tV2"
+        android:layout_marginTop="370dp"
+        android:textSize="25sp"
+        android:text="@string/tikuvchi" />
+    <TextView
+        android:id="@+id/tV10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tV2"
+        android:layout_marginTop="420dp"
+        android:textSize="25sp"
+        android:text="@string/oshpaz" />
+
+</RelativeLayout>

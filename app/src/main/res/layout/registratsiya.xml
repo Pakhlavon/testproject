@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fec006"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txtreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="67sp"
+        android:layout_marginTop="37dp"
+        android:textStyle="bold|italic"
+        android:textColor="#4bae4f"
+        android:textSize="30sp"
+        android:text="@string/registratsiya_oynasi" />
+
+    <TextView
+        android:id="@+id/txtlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtreg"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="94dp"
+        android:textStyle="bold|italic"
+        android:textColor="#4bae4f"
+        android:textSize="25sp"
+        android:layout_marginEnd="114dp"
+        android:text="@string/login" />
+
+    <EditText
+        android:id="@+id/etxtlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="143dp"
+        android:ems="10"
+        android:hint="@string/loginni_kiriting"
+        android:inputType="textPersonName"
+         />
+
+    <TextView
+        android:id="@+id/txtparol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtreg"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="106dp"
+        android:text="Parol"
+        android:textColor="#4bae4f"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/etxtparol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="75sp"
+        android:layout_marginBottom="201dp"
+        android:ems="10"
+        android:hint="Patolni kiriting"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnkirish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtlogin"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="122dp"
+        android:textStyle="bold|italic"
+        android:textColor="#4bae4f"
+        android:textSize="25sp"
+        android:text="@string/kirish"
+        android:background="#ccdb38"/>
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3e50b4">
+
+
+    <ImageView
+        android:id="@+id/imgVw"
+        android:layout_width="221dp"
+        android:layout_height="155dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        app:srcCompat="@drawable/pahlavon" />
+
+    <TextView
+        android:id="@+id/txtism"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="221dp"
+        android:text="@string/pahlavon_sotiboldiyev"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtcall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="87sp"
+        android:layout_marginTop="261sp"
+        android:onClick="txtcall"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:text="@string/_998999923691" />
+
+    <TextView
+        android:id="@+id/txtmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtcall"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="-86dp"
+        android:layout_marginTop="301sp"
+        android:text="@string/pahlavon_9596_mail_ru"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:onClick="txtmail"/>
+
+    <TextView
+        android:id="@+id/txtfb"
+        android:onClick="txtfb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtcall"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="341sp"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:text="@string/facebook" />
+</RelativeLayout>
