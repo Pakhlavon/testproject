@@ -1,11 +1,15 @@
 package uz.scorpion.newproyekt;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class Bolimlar extends AppCompatActivity {
+
 
     private TextView tV2;
     private TextView tV3;
@@ -30,13 +34,21 @@ public class Bolimlar extends AppCompatActivity {
         tV7=(TextView)findViewById(R.id.tV7);
         tV8=(TextView)findViewById(R.id.tV8);
         tV9=(TextView)findViewById(R.id.tV9);
-        tV10=(TextView)findViewById(R.id.tV10);
-
-
-
+        tV10=(TextView) findViewById(R.id.tV10);
 
     }
 
+    public void tV5(View view){
+        Intent i=new Intent(getApplicationContext(),Doctor.class);
+        startActivity(i);
+    }
+    public void tV7(View view){
+        Intent i=new Intent(getApplicationContext(),Doctor.class);
+        startActivity(i);
+    }
 
-
+    public void tV2(View view){
+        Intent i=new Intent(getApplicationContext(),Taksi.class);
+        startActivity(i);
+    }
 }

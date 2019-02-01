@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95afc0">
+
+    <ImageView
+        android:id="@+id/imgrasm"
+        android:layout_width="128dp"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="31dp"
+        app:srcCompat="@drawable/doc"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <TextView
+        android:id="@+id/txtrasm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imgrasm"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="121dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:text="@string/g_aniya_xususiy" />
+
+    <TextView
+        android:id="@+id/txtrasmdavomi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="142dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:onClick="txtrasmtel"
+        android:text="Tel:+998991234567" />
+
+    <TextView
+        android:id="@+id/txtrasmdavomi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="162dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:onClick="txtrasmmail"
+        android:text="Mail:Ganiyeva@mail.ru" />
+
+    <ImageView
+        android:id="@+id/imgrasm2"
+        android:layout_width="108dp"
+        android:layout_height="98dp"
+        android:layout_alignTop="@+id/imgrasm"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-6dp"
+        android:layout_marginEnd="58dp"
+        app:srcCompat="@drawable/doctor" />
+
+    <TextView
+        android:id="@+id/txtrasm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtrasmdavomi"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8sp"
+        android:layout_marginBottom="-140dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:text="@string/shoxruxmirzo_klinikasi" />
+
+    <TextView
+        android:id="@+id/txtrasm2davomi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtrasm2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="161dp"
+        android:layout_marginEnd="5dp"
+        android:onClick="txtrasm2mail"
+        android:text="@string/mail_shoxrux_mail_ru"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtrasm2davomi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtrasm2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="23dp"
+        android:onClick="txtrasm2tel"
+        android:text="@string/tel_998999923691"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgrasm3"
+        android:layout_width="153dp"
+        android:layout_height="119dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="207dp"
+        app:srcCompat="@drawable/shif" />
+
+    <TextView
+        android:id="@+id/txtrasm3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginBottom="152dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:text="@string/javohir_klinika" />
+
+    <TextView
+        android:id="@+id/txtrasm3davomi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtrasm3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="123dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:onClick="txtrasm3tel"
+        android:text="@string/tel_998971234567" />
+
+    <TextView
+        android:id="@+id/txtrasm3davomi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtrasm3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="93dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:onClick="txtrasm3mail"
+        android:text="@string/mail_javohir_mail_ru" />
+</RelativeLayout>

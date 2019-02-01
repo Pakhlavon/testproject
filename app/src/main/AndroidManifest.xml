@@ -22,11 +22,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Bolimlar"></activity>
+        <activity android:name=".Bolimlar"/>
         <activity android:name=".Boglanish"/>
         <activity android:name=".About"/>
         <activity android:name=".Registratsiya"/>
-
+        <activity android:name=".Doctor"/>
+        <activity android:name=".Taksi"/>
     </application>
-
 </manifest>

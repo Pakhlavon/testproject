@@ -28,10 +28,21 @@
     <string name="_998999923691">+998999923691</string>
     <string name="pahlavon_9596_mail_ru">Pahlavon-9596@mail.ru</string>
     <string name="facebook">Facebook</string>
-    <string name="about">Bu dasturdan foydalangan insonlar vaqtlarini va mablag`larini ancha tejashlari mumkin. Masofadan turib turli bo`limlarga xizmat ko`rsatishlari ham mumkin. Dasturdan foydalanganingiz uchun rahmat</string>
+    <string name="about">Bu dasturdan foydalangan insonlar vaqtlarini va mablag`larini ancha tejashlari mumkin.
+        Masofadan turib turli bo`limlarga xizmat ko`rsatishlari ham mumkin. Dasturdan foydalanganingiz uchun rahmat</string>
     <string name="registratsiya_oynasi">Registratsiya oynasi</string>
     <string name="login">Login</string>
     <string name="loginni_kiriting">loginni kiriting</string>
     <string name="kirish">Kirish</string>
+    <string name="g_aniya_taksi">G\'aniya taksi</string>
+    <string name="g_aniya_xususiy">G\'aniya xususiy klinikasi</string>
+    <string name="shoxruxmirzo_taksi">ShoxruxMirzo xususiy taksi</string>
+    <string name="shoxruxmirzo_klinikasi">ShoxruxMirzo xususiy klinikasi</string>
+    <string name="mail_shoxrux_mail_ru">Mail:Shoxrux@mail.ru</string>
+    <string name="tel_998999923691">Tel:+998999923691</string>
+    <string name="javohir_taksi">Javohir taxi</string>
+    <string name="javohir_klinika">Javohir klinikasi</string>
+    <string name="tel_998971234567">Tel:+998971234567</string>
+    <string name="mail_javohir_mail_ru">Mail:Javohir@mail.ru</string>
 </resources>
 

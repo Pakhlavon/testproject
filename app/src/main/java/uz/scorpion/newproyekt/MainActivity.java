@@ -135,7 +135,6 @@ public void btntel(View view){
         i.setData(Uri.parse("tel:+998999923691"));
         startActivity(i);
 }
-
     public void btntg(View view){
         Intent i =new Intent(Intent.ACTION_SEND);
         i.setData(Uri.parse("email"));
